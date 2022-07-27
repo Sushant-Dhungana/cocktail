@@ -36,6 +36,18 @@ const CocktailList = () => {
 
     },[cocktails]);
 
+    // if(loading){
+    //     return (
+    //         <div>Loading...</div>
+    //     )
+    // }
+
+    //if cocktail is not found
+    if(!cocktails){
+        return (
+            <div className='not-found-cocktail'>No cocktail found according to your search  </div>
+        )
+    }
 
 
        
