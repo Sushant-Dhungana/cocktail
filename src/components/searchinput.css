@@ -1,5 +1,6 @@
-.search {
-    margin-top: 1rem;
+
+.search{
+    margin-top: 20px;
     padding-bottom: 0;
     margin-bottom: 5rem;
   }
@@ -8,11 +9,11 @@
     width: 85vw;
     margin: 0 auto;
     max-width: 40rem;
-    background: #fff;
+    background: rgb(245, 240, 240);
     padding: 2rem 2.5rem;
     text-transform: capitalize;
     border-radius: 0.25rem;
-    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 3px 2px 0px rgba(0, 0, 0, 0.1);
   }
   
   .form-control label {
@@ -20,7 +21,7 @@
     margin-bottom: 1.25rem;
     font-weight: bold;
     letter-spacing: 0.25rem;
-    color: orangered;
+    color: rgb(249, 246, 245);
     font-size: large;
     text-align: left;
   }
@@ -51,10 +52,11 @@
   
   .form-control label {
     display: block;
+    margin-left: 30%;
     margin-bottom: 1.25rem;
     font-weight: bold;
     letter-spacing: 0.25rem;
-    color: orangered;
+    color: rgb(39, 22, 16);
     font-size: large;
     text-align: left;
   }

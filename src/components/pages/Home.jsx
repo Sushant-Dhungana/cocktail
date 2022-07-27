@@ -5,7 +5,7 @@ import CocktailList from '../CocktailList';
 const Home = () => {
   return (
     <>
-    <h2>Home</h2>
+
         {/* search input */}
         <SearchInput/> 
         {/* cocktail list */}

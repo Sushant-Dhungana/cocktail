@@ -3,10 +3,10 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-        <nav className="navbar navbar-light bg-light fixed-top">
+        <nav className="main-header">
             <div className="container-fluid">
-                <span className="navbar-brand mb-0 h1 header-title text-success">
-                    Find your favorite cocktail
+                <span className="cocktails">
+                    Chill pill with cocktails
                 </span>
             </div>
         </nav>

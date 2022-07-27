@@ -7,8 +7,8 @@ const SearchInput = () => {
     <section className='section search'>
         <form className='search-form'>
             <div className="form-control">
-                <label htmlFor="name">Search Cocktail</label>
-                <input type="text" name="name" id="name" ref={searchValue} />
+               
+                <input type="text" name="name" id="name" ref={searchValue} placeholder="Search Cocktail" />
             </div>
         </form> 
 

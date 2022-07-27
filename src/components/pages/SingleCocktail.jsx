@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { fetchSingleCocktail } from "../redux/features/CocktailSlice";
 import { useDispatch, useSelector } from "react-redux";
+import './singlecocktail.css';
 
 const SingleCocktail = () => {
   const { cocktail, loading } = useSelector((state) => ({ ...state.app }));
@@ -10,7 +11,7 @@ const SingleCocktail = () => {
   const { id } = useParams();
   useEffect(() => {
     dispatch(fetchSingleCocktail({ id }));
-  }, [id]);
+  }, [dispatch,id]);
 
   useEffect(() => {
     if (cocktail?.length > 0) {
@@ -64,7 +65,7 @@ const SingleCocktail = () => {
         ) : (
           <section className="section cocktail-section">
             <Link to="/">
-              <button className="btn btn-danger" style={{ marginTop: "2rem" }}>
+              <button className="btn1" style={{ marginTop: "2rem" }}>
                 Go Back
               </button>
             </Link>
